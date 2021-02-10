@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" type= "text/css">
+    <title>Classic Cars Website</title>
+</head>
+<body> 
+    <!-- MENU -->
+    <div class="menu target">
+        <div class="menu-line menu-line-1 target"></div>
+        <div class="menu-line menu-line-2 target"></div>
+    </div>
+    <!-- END OF MENU -->
+    <!-- NAVBAR -->
+    <nav class="nav-bar target">
+        <a href="#home" class="nav-bar-link">Home</a>
+        <a href="#popular-cars" class="nav-bar-link">Popular Cars</a>
+        <a href="#video-gallery" class="nav-bar-link">Video Gallery</a>
+        <a href="#image-gallery" class="nav-bar-link">Image Gallery</a>
+        <a href="#contact" class="nav-bar-link">Contact</a>
+    </nav>
+    <!-- END OF NAVBAR -->
+    <!-- SECTION 1 --> 
+    <div class="wrapper">
+        <section class="section-1 target" id="home">
+            <h1>Classic Cars</h1>
+            <img src="images/car-section1.png" alt="car-section-1">
+        </section>
+    </div>
+    <!-- END OF SECTION 1 --> 
+    
+    <!-- SECTION 2 --> 
+    <div class="wrapper">
+        <section class="section-2 target" id="popular-cars">
+            <h1>Popular Cars</h1>
+            <div class="card-wrapper">
+                <div class="card">
+                    <h3>Car Name - 1 </h3>
+                    <img src="images/car-1.jpg" alt="car-1">
+                    <p>$200,000</p>
+                    <button class="card-button">See More</button>
+                </div>
+                <div class="card">
+                    <h3>Car Name - 2</h3>
+                    <img src="images/car-2.jpg" alt="car-2">
+                    <p>$230,000</p>
+                    <button class="card-button">See More</button>
+                </div>
+                <div class="card">
+                    <h3>Car Name - 3</h3>
+                    <img src="images/car-3.jpg" alt="car-3">
+                    <p>$310,000</p>
+                    <button class="card-button">See More</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- END OF SECTION 2 --> 
+    
+    <!-- SECTION 3 --> 
+    <div class="wrapper">
+        <section class="section-3 target" id="video-gallery">
+            <h1>Video Gallery</h1>
+            <div class="video-wrapper">
+                <video class="video" src="images/car-video-1.mp4" muted loop width="400px" ></video>
+                <video class="video" src="images/car-video-2.mp4" muted loop width="400px" ></video>
+                <video class="video" src="images/car-video-3.mp4" muted loop width="400px" ></video>
+                <video class="video" src="images/car-video-4.mp4" muted loop width="400px" ></video>
+                <video class="video" src="images/car-video-5.mp4" muted loop width="400px" ></video>
+                <video class="video" src="images/car-video-6.mp4" muted loop width="400px" ></video>
+            </div>
+        </section>
+    </div>
+    <!-- END OF SECTION 3 --> 
+    
+    <!-- SECTION 4 --> 
+    <div class="wrapper">
+        <section class="section-4 target" id="image-gallery">
+            <h1>Image Gallery</h1>
+            <div class="gallery-wrapper">
+                <div class="gallery-shelf"></div>
+                <img src="images/gallery-car-1.jpg" class="gallery-img-1" alt="gallery-car-1">
+                <img src="images/gallery-car-2.jpg" class="gallery-img-2" alt="gallery-car-2">
+                <img src="images/gallery-car-3.jpg" class="gallery-img-3" alt="gallery-car-3">
+            </div>
+            <div class="gallery-wrapper">
+                <div class="gallery-shelf"></div>
+                <img src="images/gallery-car-4.jpg" class="gallery-img-1" alt="gallery-car-4">
+                <img src="images/gallery-car-5.jpg" class="gallery-img-2" alt="gallery-car-5">
+                <img src="images/gallery-car-6.jpg" class="gallery-img-3" alt="gallery-car-6">
+            </div>
+        </section>
+    </div>
+    <!-- END OF SECTION 4 --> 
+
+    <!-- SECTION 5 --> 
+    <div class="wrapper">
+        <section class="section-5 target" id="contact">
+            <h1>Contact Us</h1>
+            <div class="form-wrapper">
+                <form action="#">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                    <input type="submit" value="Send" class="submit-button">
+                </form>
+            </div>
+            <footer><p>Copyright &copy; Sebastian Haczela</p></footer>
+        </section>
+    </div>
+    <!-- END OF SECTION 5 --> 
+
+    <script src="app.js"></script>
+</body>
+</html>
